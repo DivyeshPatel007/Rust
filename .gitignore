@@ -1,0 +1,44 @@
+target
+# Ignore compiled binaries and executables
+/target/**
+
+# Ignore Cargo.lock file
+Cargo.lock
+
+# Ignore generated documentation
+/target/doc/
+
+# Ignore .rustc_info directory
+.rustc_info/
+
+# Ignore .idea directory (if using IntelliJ IDEA)
+.idea/
+
+# Ignore Visual Studio Code settings (if using VS Code)
+.vscode/
+
+# Ignore compiled wasm files
+/target/wasm32-unknown-unknown/
+
+# Ignore build artifacts
+*.rlib
+*.rmeta
+
+# Ignore hidden .DS_Store files (macOS)
+.DS_Store
+
+# Ignore compiled test executables
+**/target/debug/deps/
+**/target/debug/build/
+
+# Ignore coverage directory
+/coverage/
+
+# Ignore *.swp files (Vim swap files)
+*.swp
+
+# Ignore system files
+Thumbs.db
+.DS_Store?
+ehthumbs.db
+Icon?
